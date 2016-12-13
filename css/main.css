@@ -16,6 +16,32 @@ header {
 	display: flex
 }
 
+#author{
+	margin: 0;
+	font-size: 3.5em;
+	font-weight: lighter;
+}
+
+#author-sub{
+	margin-top: 5px;
+	margin-bottom: 0;
+	font-size: 1.25em;
+}
+
+.icon {
+	max-width: 110px
+}
+
+.site-title {
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
 .col-1 {
 	width: 8.33%;
 }
@@ -36,7 +62,7 @@ header {
 	width: calc(9*8.33%);
 }
 
-.col-9 {
+.col-10 {
 	width: calc(10*8.33%);
 }
 
