@@ -135,3 +135,9 @@ header {
 .project-icon {
 	width: calc((100% - 20px));
 }
+
+.project-link {
+	max-width: 80%;
+	word-wrap: break-word;
+	font-size: 14px;
+}
