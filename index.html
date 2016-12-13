@@ -14,7 +14,7 @@
 </head>
 <body>
 <div class="container">
-    <header>
+    <header class="row">
         <div class="icon col-2">
             <img src="images_src\fixed\udacity.svg" alt="Udacity logo" id="u-icon">
         </div>
@@ -23,19 +23,23 @@
             <h2 id="author-sub">Front-End Ninja</h2>
         </div>
     </header>
-    <nav class="col-12 nav-bar"></nav>
-    <div class="hero col-12">
-        <picture>
-            <source media="(min-width: 1000px)" srcset="images\man_surfing-1600_large_2x.jpg">
-            <source media="(min-width: 400px)" srcset="images\man_surfing-800_large_1x.jpg">
-            <img src="images/man_surfing-400_medium_1x.jpg" class="hero-icon" alt="A man surfes in the ocean">
-        </picture>
+    <nav class="row nav-bar"></nav>
+    <div class="hero row">
+        <div class="col-12">
+            <picture>
+                <source media="(min-width: 1000px)" srcset="images\man_surfing-1600_large_2x.jpg">
+                <source media="(min-width: 400px)" srcset="images\man_surfing-800_large_1x.jpg">
+                <img src="images/man_surfing-400_medium_1x.jpg" class="hero-icon" alt="A man surfes in the ocean">
+            </picture>    
+        </div>
     </div>
 
-    <div class="portfolio-header col-12">
-        <h2 id="portfolio-title">Featured Work</h2>
+    <div class="portfolio-header row">
+        <div class="col-12">
+            <h2 id="portfolio-title">Featured Work</h2>
+        </div>
     </div>
-    <div class="project-display">
+    <div class="project-display row">
         <article class="project col-4">
             <picture>
                 <source media="(min-width: 1000px)" srcset="images\coding-1600_large_2x.jpg">
