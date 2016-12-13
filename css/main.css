@@ -84,6 +84,27 @@ header {
 	padding-right: 10px;
 }
 
+.portfolio-header {
+	padding-left: 1em;
+	color: #7d97ad;
+	margin-bottom: 0.2em;
+}
+
+#portfolio-title {
+	margin-bottom: 0.5em;
+	font-weight: lighter;
+	font-size: 2em;
+}
+
+.hero {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.hero-icon {
+	width: calc((100% - 20px));
+}
+
 .project-display {
 	display: flex;
 	flex-wrap: wrap;
@@ -100,22 +121,8 @@ header {
 	text-transform: uppercase;
 	font-size: 2em;
 	font-weight: normal;
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
-}
-
-.portfolio-header {
-	padding-left: 1em;
-	color: #7d97ad;
-}
-
-.hero {
-	padding-left: 10px;
-	padding-right: 10px;
-}
-
-.hero-icon {
-	width: calc((100% - 20px));
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
 }
 
 .project-icon {
