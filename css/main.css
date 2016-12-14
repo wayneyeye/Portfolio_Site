@@ -101,10 +101,12 @@ header {
 }
 
 .nav-bar{
-	background-color: #7d97ad;
-	height: 5px;
+	background-color: #a3cae0;
+	height: 40px;
 	width: calc(100% - 20px);
 	margin: 10px 0 30px 10px;
+	border-radius: 20px;
+	position: relative;
 }
 
 .hero {
@@ -127,7 +129,6 @@ header {
 	bottom: 0;
 	color: white;
 	padding-left: 1em;
-	height: 90px;
 	transition: background-color 1s;
 	border-radius: 0 0 5px 5px;
 }
@@ -148,6 +149,14 @@ header {
 	font-weight: lighter;
 }
 
+.social-button{
+	background-color: #80d483;
+	width: 40px;
+	height: 100%;
+	border-radius: 20px;
+	position: absolute;
+	right: 0;
+}
 
 .project-display {
 	display: flex;
@@ -202,5 +211,13 @@ header {
 
 	#portfolio-title {
 		font-size: 1.75em;
+	}
+
+	.hero-title {
+		font-size: 1.2em;
+	}
+
+	.hero-text {
+		font-size: 0.9em;
 	}
 }
