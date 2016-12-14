@@ -165,12 +165,13 @@ header {
 	border-radius: 20px;
 	position: absolute;
 	right: -90px;
-	transition: width 1s;
+	transition: transform 1s;
 	padding-top: 3px;
 }
 
 .social-button:hover{
 	width: 150px;
+	transform: translate(-90px);
 }
 
 .zocial-link {
