@@ -1,3 +1,11 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+  text-decoration: none;
+}
+
 html {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -160,7 +168,7 @@ header {
 }
 
 .social-button:hover{
-	width: 200px;
+	width: 150px;
 }
 
 .project-display {
