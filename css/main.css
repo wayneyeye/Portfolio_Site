@@ -156,6 +156,11 @@ header {
 	border-radius: 20px;
 	position: absolute;
 	right: 0;
+	transition: width 1s;
+}
+
+.social-button:hover{
+	width: 200px;
 }
 
 .project-display {
