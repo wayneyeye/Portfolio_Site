@@ -115,6 +115,7 @@ header {
 	margin: 10px 0 30px 10px;
 	border-radius: 20px;
 	position: relative;
+	overflow: hidden;
 }
 
 .hero {
@@ -159,16 +160,27 @@ header {
 
 .social-button{
 	background-color: #80d483;
-	width: 40px;
+	width: 150px;
 	height: 100%;
 	border-radius: 20px;
 	position: absolute;
-	right: 0;
+	right: -90px;
 	transition: width 1s;
+	padding-top: 3px;
 }
 
 .social-button:hover{
 	width: 150px;
+}
+
+.zocial-link {
+	text-decoration: none;
+	text-shadow: 1px 1px 2px grey;
+	font-size: 25px;
+	vertical-align: middle;
+	margin-left: 15px;
+	margin-right: 5px;
+	color: #2e638e;
 }
 
 .project-display {
