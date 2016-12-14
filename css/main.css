@@ -1,11 +1,7 @@
-/* zocial */
-[class*="zocial-"]:before {
-  font-family: 'zocial', sans-serif;
+[class*="fa-"]:before {
+  font-family: 'FontAwesome', sans-serif;
 }
 
-[class*="entypo-"]:before {
-  font-family: 'entypo', sans-serif;
-}
 
 html {
 	-webkit-box-sizing: border-box;
